@@ -65,6 +65,17 @@ The notebook is fully SQL-based—no local data files required.
 
 ---
 
+## Tableau Dashboard
+
+You can view the interactive dashboards here:  
+🔗 **Tableau Public:** 
+1) https://public.tableau.com/app/profile/yuyang.zhai6198/viz/TeamA02/dataoverview?publish=yes
+2) https://public.tableau.com/app/profile/yuyang.zhai6198/viz/TeamA02-dashboard2/IntakeOutcomeBehaviorAnalytics
+
+Screenshots of the dashboard are included in the `dashboard_screenshots/` folder.
+
+---
+
 ## Dependencies
 - Cloud Tools  
 - Google BigQuery  
