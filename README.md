@@ -1,9 +1,10 @@
 # BA775-Animal-Shelter-Data-Analysis
+
 This project explores multi-year intake and outcome trends from the Austin Animal Center using BigQuery SQL, Jupyter, and Tableau. Leveraging Google Cloud, the analysis examines intake reasons, adoption patterns, and operational inefficiencies to produce data-driven insights and recommendations for improving shelter performance.
 
 ---
 
-## 📌 Project Overview
+## Project Overview
 
 Using cloud-based tools and SQL-driven analysis, this project investigates:
 
@@ -18,7 +19,7 @@ The project includes a comprehensive SQL notebook in BigQuery, an interactive Ta
 
 ---
 
-## 🚀 Features
+## Features
 
 - Full SQL-based data cleaning and transformation  
 - Exploratory Data Analysis (EDA) covering trends, distributions, and species behaviors  
@@ -29,16 +30,28 @@ The project includes a comprehensive SQL notebook in BigQuery, an interactive Ta
 
 ---
 
-## 📁 Repository Structure
-/
+## Repository Structure
+
+```
+├── README.md # Project documentation
 ├── BA775_teamA02.ipynb # Final notebook with SQL queries and analysis
-├── A02-Presentation.pdf # Final project slide deck
 ├── dashboard_screenshots/ # Tableau dashboard images
-└── README.md # Project documentation
+└── A02-Presentation.pdf # Final project slide deck
+```
 
 ---
 
-## ▶️ How to Run the Notebook
+## Key Insights
+
+- Dog intakes show higher repeat rates, suggesting a need for stronger post-adoption support.  
+- Stray intakes—especially in areas like Levander Loop—drive significant operational load.  
+- Adoption rates improved over time, with outcomes increasingly outpacing intakes in several years.  
+- Intake reasons vary by species, with dogs most often entering as strays and cats more frequently surrendered.  
+- Seasonal and species-level patterns highlight opportunities for targeted outreach and resource planning.
+
+---
+
+## How to Run the Notebook
 
 1. Open the `.ipynb` file in **JupyterLab** or **Google Colab**.  
 2. Ensure access to **Google BigQuery**.  
@@ -50,34 +63,43 @@ The project includes a comprehensive SQL notebook in BigQuery, an interactive Ta
 4. Run all cells in order.
 The notebook is fully SQL-based—no local data files required.
 
-📦 Dependencies
-Cloud Tools
-Google BigQuery
-Google Cloud Platform (GCP)
-Jupyter Notebook / Google Colab
-Optional Python packages (if running locally):
-google-cloud-bigquery  
-pandas  
-matplotlib  
+---
 
-🙌 Contributors
-This project was completed by Team A02 for BA775 – Business Analytics Toolbox at Boston University.
-Contributors
-Bill Odiase
-Erin Zhai (Project Manager)
-Angela Liou
-Allen Chiu
-Shon Shaju
-Special thanks to Professor Mohammad Soltanieh-ha for guidance and course instruction.
-Data Source: Austin Animal Center Open Data Portal
-Tools: BigQuery, Google Cloud, Jupyter, Tableau
+## Dependencies
+- Cloud Tools  
+- Google BigQuery  
+- Google Cloud Platform (GCP)  
+- Jupyter Notebook / Google Colab  
+- Optional Python packages (if running locally):  
+  - google-cloud-bigquery  
+  - pandas  
+  - matplotlib
 
-📄 License
+---
+
+### Contributors
+
+Erin Zhai (Project Manager), Bill Odiase, Angela Liou, Shon Shaju, Allen Chiu  
+This project was completed by Team A02 for BA775 – Business Analytics Toolbox
+
+---
+
+## License
+
 This project may be shared under the MIT License, or another license of your choice.
 If you would like a license file generated, I can create it for you.
 
-💬 Acknowledgments
-Austin Animal Center Open Data Portal
-Google Cloud Platform
-Tableau Public
-BA775 Teaching Team
+---
+
+## Generative AI Disclosure
+
+We used Generative AI tools (including ChatGPT) to support non-analytical tasks such as refining markdown text, improving clarity in explanations, and assisting with formatting. AI was also used to help debug minor SQL syntax issues and suggest clearer narrative structure for summaries and recommendations. All analysis, SQL queries, interpretations, and final decisions were independently reviewed and validated by the team.
+
+---
+
+## Acknowledgments
+
+Boston University MSBA BA775 - Business Analytics Toolbox  
+Special thanks to Professor Mohammad Soltanieh-ha for guidance and course instruction  
+Data Source: Austin Animal Center Open Data Portal  
+Tools: BigQuery, Google Cloud, Jupyter, Tableau  
